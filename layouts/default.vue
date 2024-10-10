@@ -59,12 +59,6 @@ const items = [
 ];
 </script>
 
-<style lang="scss">
-$primary: #ff0000;
-@use '@oruga-ui/theme-bulma/dist/scss/bulma' with (
-    $primary: $primary,
-)
-</style>
 
 <style scoped>
 .footer,
