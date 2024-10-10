@@ -3,12 +3,14 @@ $primary: #ff0000;
 // Styles both Bulma and Oruga components but no way to set colors
 @use '@oruga-ui/theme-bulma/dist/bulma.css';
 
-// Does not seem to work at all:
-// @use '@oruga-ui/theme-bulma/dist/scss/bulma' with (
-//     $primary: $primary,
-// );
 
 // Works with Bulma but Oruga components are not styled:
 // @use 'bulma/sass' with (
+//     $primary: $primary,
+// );
+
+
+// Does not seem to work at all:
+// @use '@oruga-ui/theme-bulma/dist/scss/bulma' with (
 //     $primary: $primary,
 // );

@@ -3,7 +3,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand" style="margin-right: 30px">
                 <nuxt-link class="navbar-item" :to="{ name: 'index' }">
-                    <img src="~/assets/interline-logo-small.png" height="20" />
+                    Test App
                 </nuxt-link>
             </div>
 
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="navbar-end">
-                    <div class="navbar-item">Hi</div>
+                    <div class="navbar-item">Search</div>
                 </div>
             </div>
         </nav>
